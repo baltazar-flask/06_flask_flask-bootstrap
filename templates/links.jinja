@@ -1,0 +1,23 @@
+{% extends "bootstrap/base.html" %} 
+{% block title %}Naslov u kartici!{% endblock%}
+{% block styles %} 
+{{super()}}
+<link
+      rel="icon"
+      href="{{ url_for('static', filename='teacher_education_school_lecture_student_icon_141984.ico') }}"
+      type="image/x-icon"
+/>
+{% endblock %}
+{% block navbar %} 
+{% include "header.html" %} 
+{% include "footer.html" %} 
+{% endblock %} 
+{% block content %}
+<div class="container">
+  <div class="page-header">
+    {% for name, link in links.items() %}
+        <p><a href="{{ link }}">{{ name }}</a></p>      
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
