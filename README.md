@@ -1,16 +1,5 @@
-Flask-bootstrap
-pip install flask-bootstrap
-
-Izrada requirements.txt sa korištenim bibliotekama
-pip freeze > requirements.txt
-
-Iteriranje po rječniku
-
-
-
-
-# Flask Form Application
-Aplikacija koja koristi formu za unos podataka
+# Flask Bootstrap Application
+Aplikacija koja koristi Flask-Bootstrap za oblikovanje
 
 ## 1. Tehnologije
 - Flask (3.0.3)
